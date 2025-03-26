@@ -12,7 +12,7 @@ export const MenuItem = ({
   onClick: () => void,
 }) => (
   <div
-    className={`flex m-1 items-center h-[35px] ${isActive && "bg-gray-100"} cursor-pointer rounded`}
+    className={`flex my-1 px-3 items-center h-[35px] ${isActive && "bg-gray-100"} cursor-pointer rounded`}
     onClick={onClick}
   >
     <div className="w-[32px] px-1">
